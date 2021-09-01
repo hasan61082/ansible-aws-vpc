@@ -20,7 +20,7 @@
       notify:
         - Restart mysql
       tags:
-        - deploy
+        - deployk
 
 
   handlers:
