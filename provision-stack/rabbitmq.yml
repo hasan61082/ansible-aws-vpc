@@ -33,7 +33,7 @@
         - package
 
     - apt_repository:
-        repo: deb http://archive.canonical.com/ubuntu hardy partner
+        repo: deb https://dl.bintray.com/rabbitmq/debian bionic main
         state: present
       tags:
         - package
