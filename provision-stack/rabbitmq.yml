@@ -33,7 +33,7 @@
         - package
 
     - apt_repository:
-        repo: deb https://dl.bintray.com/rabbitmq/debian bionic main
+        repo: deb http://archive.canonical.com/ubuntu hardy partner
         state: present
       tags:
         - package
@@ -42,7 +42,7 @@
       apt:
         name: rabbitmq-server
         state: present
-        update-cache: yes
+        update_cache: yes
       tags:
         - package
 
